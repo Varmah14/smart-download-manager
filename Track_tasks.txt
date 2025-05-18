@@ -1,0 +1,59 @@
+Task and Understanding for folder watching
+
+🧠 What You’re Building
+A Python script that:
+
+Watches a specific folder (e.g., ~/Downloads)
+
+Detects new files as soon as they appear
+
+Prints/logs the filename and path
+
+🔧 Conceptual Components
+✅ 1. watchdog.observers.Observer
+This is the core engine that monitors file system changes.
+
+You tell it: “Watch this folder”.
+
+✅ 2. FileSystemEventHandler (Custom Class)
+You subclass this to define what happens when:
+
+A file is created
+
+A file is modified
+
+A file is deleted, etc.
+
+You’ll override on_created() to act on new files.
+
+✅ 3. Looping the Watcher
+The observer needs to keep running. You’ll use while True or try/except to keep the watcher alive until you stop it with Ctrl + C.
+
+🧩 How it Fits Together
+text
+Copy
+Edit
+- Create a handler class (inherits FileSystemEventHandler)
+    - Override on_created() to print/log new file paths
+
+- Create an Observer object
+    - Schedule it with the handler and target folder
+    - Start the observer
+    - Keep the program running in a loop
+🔁 Flow Example
+text
+Copy
+Edit
+➡️ User drops a PDF into Downloads folder
+🔁 Observer detects new file
+🎯 Handler's on_created() is triggered
+📢 Program prints: “New file detected: invoice.pdf”
+🧪 Your First Goal
+Write a Python script that:
+
+Uses watchdog
+
+Monitors ~/Downloads
+
+Prints out new file paths in real time
+

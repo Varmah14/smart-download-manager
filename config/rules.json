@@ -1,0 +1,16 @@
+[
+    {
+      "match": {
+        "extension": ".pdf",
+        "name_contains": "invoice"
+      },
+      "action": "move"
+    },
+    {
+      "match": {
+        "extension": ".zip"
+      },
+      "action": "delete"
+    }
+  ]
+  
