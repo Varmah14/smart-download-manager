@@ -1,3 +1,5 @@
+import logging
+import time
 import os
 import time
 from watchdog.observers import Observer
@@ -6,11 +8,12 @@ import shutil
 from pathlib import Path
 import json
 from util.util import CONFIG_PATH, FOLDER_TO_WATCH
+from logger_setup import setup_logger
 
 
 def load_rules():
     if not os.path.exists(CONFIG_PATH):
-        print(f"No config file found at {CONFIG_PATH}. Exiting.")
+        logging.error(f"No config file found at {CONFIG_PATH}. Exiting.")
         exit(1)
     with open(CONFIG_PATH, 'r') as f:
         return json.load(f)
@@ -40,27 +43,36 @@ def apply_rules(file_path, rules):
                 dest = os.path.expanduser(rule.get("destination", "~/Downloads/Sorted"))  # default fallback
                 ensure_dir(dest)
                 shutil.move(file_path, os.path.join(dest, filename))
-                print(f"Moved {filename} to {dest}")
+                logging.info(f"Moved {filename} to {dest}")
             elif action == "delete":
                 os.remove(file_path)
-                print(f"Deleted {filename}")
+                logging.info(f"Deleted {filename}")
             else:
-                print(f"Unknown action: {action}")
+                logging.error(f"Unknown action: {action}")
             break  # stop after first matching rule
-
 
 class DownloadHandler(FileSystemEventHandler):
     def __init__(self, rules):
         self.rules = rules
+        self.recently_handled = {}
 
     def on_created(self, event):
         if event.is_directory:
             return
-        if wait_until_stable(event.src_path):
-            apply_rules(event.src_path, self.rules)
+
+        path = event.src_path
+
+        # Skip recently handled files (e.g., in last 3 seconds)
+        now = time.time()
+        if path in self.recently_handled and now - self.recently_handled[path] < 3:
+            return
+
+        if wait_until_stable(path):
+            apply_rules(path, self.rules)
+            self.recently_handled[path] = now
         else:
-            print(f"File {event.src_path} did not stabilize in time.")
-        # time.sleep(1)  # wait for file to be fully written
+            logging.warning(f"File {path} did not stabilize in time.")
+
 
 
 def wait_until_stable(file_path, wait_time=1.5, check_interval=0.5, max_retries=20):
@@ -91,16 +103,25 @@ def start_watcher():
     rules = load_rules()
     event_handler = DownloadHandler(rules)
     observer = Observer()
-    observer.schedule(event_handler,FOLDER_TO_WATCH , recursive = True)
+    observer.schedule(event_handler, FOLDER_TO_WATCH, recursive=True)
     observer.start()
-    print("started Watching folder",FOLDER_TO_WATCH)
+    logging.info("Started watching folder:%s", FOLDER_TO_WATCH)
+
     try:
         while True:
             time.sleep(10)
     except KeyboardInterrupt:
+        logging.info("\nINFO - Keyboard interrupt received. Stopping watcher...")
         observer.stop()
-    observer.join()
+    except Exception as e:
+        logging.error(f"ERROR - Unexpected error: {e}\n\n")
+        observer.stop()
+    finally:
+        observer.join()
+        logging.info("INFO - Watcher exited cleanly.\n")
+
 
 
 if __name__ == "__main__":
+    setup_logger()
     start_watcher()

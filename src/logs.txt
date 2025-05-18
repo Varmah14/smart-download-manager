@@ -1,0 +1,32 @@
+2025-05-17 20:22:21,021 - INFO - started Watching folder /Users/varma/Downloads
+2025-05-17 20:22:36,156 - INFO - started Watching folder /Users/varma/Downloads
+2025-05-17 20:25:26,108 - INFO - started Watching folder /Users/varma/Downloads
+2025-05-17 20:26:59,713 - INFO - started Watching folder /Users/varma/Downloads
+2025-05-17 20:27:07,648 - INFO - Deleted sample-1.zip
+2025-05-17 20:29:27,363 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+
+
+2025-05-17 20:29:27,365 - INFO - INFO - Watcher exited cleanly.
+2025-05-17 20:29:44,658 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+
+
+2025-05-17 20:29:44,660 - INFO - INFO - Watcher exited cleanly.
+2025-05-17 20:30:31,525 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-17 20:30:31,527 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-17 20:30:35,460 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-17 20:30:35,461 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-17 20:31:11,428 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-17 20:31:11,429 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-17 20:31:11,953 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-17 20:31:19,582 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-17 20:31:19,584 - INFO - INFO - Watcher exited cleanly.
+
