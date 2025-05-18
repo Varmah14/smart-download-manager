@@ -18,6 +18,7 @@ A Python-based file automation tool that monitors your Downloads folder (or any 
 ## Installation
 
 ```bash
+git clone https://github.com/Varmah14/smart-download-manager.git
 cd smart-download-manager
 python3 -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
