@@ -1,0 +1,140 @@
+2025-05-18 10:25:34,617 - ERROR - No config file found at ../config/rules.json. Exiting.
+2025-05-18 10:26:06,362 - ERROR - No config file found at /config/rules.json. Exiting.
+2025-05-18 10:26:46,623 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:27:09,611 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:27:29,431 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:27:39,376 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:28:16,822 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:28:25,896 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:28:33,781 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:29:05,309 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/config/rules.json. Exiting.
+2025-05-18 10:31:48,062 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/util/util.py/config/rules.json. Exiting.
+2025-05-18 10:34:50,638 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/util/util.py/config/rules.json. Exiting.
+2025-05-18 10:35:40,397 - ERROR - No config file found at /Users/varma/my_folder/personal_project/summer_2025/smart-download-manager/src/util/util.py/config/rules.json. Exiting.
+2025-05-18 10:37:06,344 - ERROR - No config file found at ../config/rules.json. Exiting.
+2025-05-18 10:37:42,801 - ERROR - No config file found at ../config/rules.json. Exiting.
+2025-05-18 10:37:46,682 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:38:08,137 - INFO - Deleted sample-1.zip
+2025-05-18 10:44:17,545 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:44:17,550 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:44:18,422 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:46:41,788 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:46:41,792 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:46:42,446 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:48:03,458 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:48:03,460 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:48:08,047 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:50:13,648 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:50:13,652 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:50:14,228 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:54:40,314 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:54:40,318 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:54:40,930 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:56:59,590 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:56:59,592 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:57:13,627 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:59:08,765 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 10:59:08,768 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 10:59:34,572 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 10:59:43,212 - INFO - Ignored temp download file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 10:59:43,213 - INFO - Ignored .download directory: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download
+2025-05-18 11:01:47,406 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:01:47,410 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 11:01:48,235 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 11:01:52,516 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:01:52,516 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:01:54,076 - INFO - Processing stabilized file: /Users/varma/Downloads/.DS_Store
+2025-05-18 11:01:54,077 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:01:55,591 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:01:55,594 - INFO - Moved INFO 5602 - Group Presentation Final Report Template.pptx to /Users/varma/my_folder/Cu_Boulder/classes/information_visualisation/check/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:02:21,426 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:02:21,426 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 11:03:10,464 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 11:03:18,854 - INFO - Processing stabilized file: /Users/varma/Downloads/.com.google.Chrome.h5qrwK
+2025-05-18 11:03:18,855 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 129663.crdownload
+2025-05-18 11:03:18,855 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 129663.crdownload
+2025-05-18 11:03:18,856 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 129663.crdownload
+2025-05-18 11:03:18,856 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 129663.crdownload
+2025-05-18 11:03:18,856 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 129663.crdownload
+2025-05-18 11:03:20,367 - INFO - Processing stabilized file: /Users/varma/Downloads/sample-1.zip
+2025-05-18 11:03:20,368 - INFO - Deleted sample-1.zip
+2025-05-18 11:03:42,292 - INFO - Processing stabilized file: /Users/varma/Downloads/.com.google.Chrome.EeyMJr
+2025-05-18 11:03:42,294 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 96322.crdownload
+2025-05-18 11:03:42,294 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 96322.crdownload
+2025-05-18 11:03:42,295 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 96322.crdownload
+2025-05-18 11:03:42,295 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 96322.crdownload
+2025-05-18 11:03:42,295 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 96322.crdownload
+2025-05-18 11:03:43,802 - INFO - Processing stabilized file: /Users/varma/Downloads/sample-1.zip
+2025-05-18 11:03:43,803 - INFO - Deleted sample-1.zip
+2025-05-18 11:03:50,202 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:03:50,203 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 11:04:01,357 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 11:04:04,696 - INFO - Processing stabilized file: /Users/varma/Downloads/.com.google.Chrome.l8eGqC
+2025-05-18 11:04:04,696 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 249086.crdownload
+2025-05-18 11:04:04,697 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 249086.crdownload
+2025-05-18 11:04:04,697 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 249086.crdownload
+2025-05-18 11:04:04,697 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 249086.crdownload
+2025-05-18 11:04:04,698 - INFO - Ignored temp file: /Users/varma/Downloads/Unconfirmed 249086.crdownload
+2025-05-18 11:04:06,205 - INFO - Processing stabilized file: /Users/varma/Downloads/sample-1 (2).zip
+2025-05-18 11:04:06,206 - INFO - Deleted sample-1 (2).zip
+2025-05-18 11:04:14,232 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:04:14,233 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 11:19:37,402 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 11:19:49,729 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:19:49,729 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:19:49,826 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:19:49,838 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:19:51,351 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:19:51,362 - INFO - Moved INFO 5602 - Group Presentation Final Report Template.pptx to /Users/varma/my_folder/Cu_Boulder/classes/information_visualisation/check/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:20:25,797 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:20:25,798 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:20:25,822 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:20:27,335 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:20:27,337 - INFO - Moved INFO 5602 - Group Presentation Final Report Template.pptx to /Users/varma/my_folder/Cu_Boulder/classes/information_visualisation/check/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:22:02,177 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:22:02,179 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 11:22:02,774 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 11:22:07,700 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:22:07,700 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:22:07,800 - INFO - Ignored temp file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx.download/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:22:09,311 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:22:09,312 - INFO - Moved INFO 5602 - Group Presentation Final Report Template.pptx to /Users/varma/my_folder/Cu_Boulder/classes/information_visualisation/check/INFO 5602 - Group Presentation Final Report Template.pptx
+2025-05-18 11:39:55,244 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 CSCI5622_Lectures_7_to_13_Study_Sheet.docx
+2025-05-18 11:40:12,927 - INFO - Processing stabilized file: /Users/varma/Downloads/CSCI5622_Lectures_7_to_13_Study_Sheet.docx
+2025-05-18 11:41:53,092 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 CSCI5622_Lectures_7_to_13_Study_Sheet.docx
+2025-05-18 11:44:47,376 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:44:47,378 - INFO - INFO - Watcher exited cleanly.
+
+2025-05-18 11:44:48,044 - INFO - Started watching folder:/Users/varma/Downloads
+2025-05-18 11:45:12,882 - INFO - Processing stabilized file: /Users/varma/Downloads/CSCI5622_Lectures_7_to_13_Study_Sheet.docx
+2025-05-18 11:45:20,363 - INFO - Processing stabilized file: /Users/varma/Downloads/INFO 5602 CSCI5622_Lectures_7_to_13_Study_Sheet.docx
+2025-05-18 11:45:20,367 - INFO - Moved INFO 5602 CSCI5622_Lectures_7_to_13_Study_Sheet.docx to /Users/varma/my_folder/Cu_Boulder/classes/information_visualisation/INFO 5602 CSCI5622_Lectures_7_to_13_Study_Sheet.docx
+2025-05-18 11:48:16,052 - INFO - 
+INFO - Keyboard interrupt received. Stopping watcher...
+2025-05-18 11:48:16,056 - INFO - INFO - Watcher exited cleanly.
+
