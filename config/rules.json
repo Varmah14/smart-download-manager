@@ -1,10 +1,10 @@
 [
     {
       "match": {
-        "extension": ".pdf",
-        "name_contains": "invoice"
+        "name_contains": "INFO 5602"
       },
-      "action": "move"
+      "action": "move",
+      "destination": "/Users/varma/my_folder/Cu_Boulder/classes/information_visualisation"
     },
     {
       "match": {
